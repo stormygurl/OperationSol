@@ -87,10 +87,22 @@ h1, h2, h3 {
 #socialMedia .youtube a:hover {
 	color: #CD332D;
 }
+.col-sm-4 {
+	text-align: center;
+}
+.btn {
+	width: 40%;
+	font-size: 1.5em;
+}
 .btn-success {
 	color: #fff;
-	background-color: #279127;
+	background: #279127;
 	border-color: #242424;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+  	color: #000;
+  	background: #909090;
+  	border-color: #fff;
 }
 /* Menu Styles
 ========================================== */
