@@ -1,21 +1,21 @@
 /* Page Information
 =====================
-Developer: Rick Shaw
-CSS for - Reel Big Fish Discography
+Developer: Sol 3 Tech
+CSS for - Sol 3 Tech.com
 */
 
 /* Color Guide
 =====================
-Gold -#B3A514
-Yellow Sun -#FFEE36
-Gun Metal Grey -#898989
-Vibrant Blue -#0000fe
-Sky Blue -#00b8f6
+Gold -#242424
+Yellow Sun -#279127
+Gun Metal Grey -#2FB506
+Vibrant Blue -#909090
+Sky Blue -#2185DB
 */
 /* Typography Guide
 ===================== 
-Headings -Jolly Lodger
-Paragraph -Average Sans Serif
+Headings -Lato
+Paragraph -Lato
 */
 
 /* Tweaks
@@ -25,7 +25,7 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+}h2
 ol > li {
 	color: #000;
 	font-family: 'Lato', sans-serif, Helvetica, Arial, sans-serif;
@@ -45,8 +45,8 @@ p a {
 p a:hover {
 	color: #fff;
 }
-.albumtitle {
-	margin-left: 3em;
+h1, h2, h3 {
+	margin-top: 0px;
 }
 .container {
 	position: relative;
@@ -55,27 +55,6 @@ p a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.jumbotron {
-	background: url(../images/jumbo.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.jumbotron h1 {
-	font-size: 48px;
-	line-height: 0;
-	color: #333;
-	text-shadow: 1px 1.732px 0 #fff;
-}
-.jumbotron h2 {
-	font-size: 26px;
-	line-height: 0;
-	padding-top: .3em;
-	color: #333;
-	text-shadow: 1px 1.732px 0 #fff;
-}
-.container .jumbotron {
-	border-radius: 30px;
-}
 #socialMedia{
 	padding: 0;
 	margin: 0;
@@ -83,7 +62,7 @@ p a:hover {
 	width: 25%;
 	position: absolute;
 	top: 2em;
-	right: 0.6em;
+	right: -10.4em;
 }
 #socialMedia li{
 	list-style: none;
@@ -107,6 +86,11 @@ p a:hover {
 }
 #socialMedia .youtube a:hover {
 	color: #CD332D;
+}
+.btn-success {
+	color: #fff;
+	background-color: #279127;
+	border-color: #242424;
 }
 /* Menu Styles
 ========================================== */
@@ -158,7 +142,7 @@ p a:hover {
 	display: table-cell; 
 	position: absolute;
 	margin-top: -60px;
-	margin-left: 38px;
+	margin-left: 42px;
 	font-size: 35px;
 }
 /* Styles
@@ -356,28 +340,7 @@ p a:hover {
 /* Media Querie Tweaks
 =========================== */
 @media only screen and (max-width: 1024px) {
-	.outer, .outer * {
-    	-webkit-box-sizing: border-box;
-    	-moz-box-sizing: border-box;
-    	box-sizing: border-box;
-	}
-	.group-row .element  {
-		float: none;
-		width: 100% !important;
-		display: block;
-	}
-	.group-row {margin: 0;}
-	.elements .element-text input, .elements .element-captcha input, .elements .element select, .elements .element textarea {
-		width: 100% !important;
-		min-width: 100px;
-	}
-	.element-date select {
-		width: 30% !important;
-	}
-	.spacer, .submit-inner {
-		padding-right: 0 !important;
-		padding-left: 0 !important;
-	}
+	
 }
 @media screen and (min-width: 769px ) and (max-width: 990px) {
 	h1 {
@@ -510,11 +473,5 @@ p a:hover {
 	}
 }
 @media only screen and (max-width: 479px) {
-	.submit-inner {
-		width: 100%;
-		float: none;
-	}
-	.elements .element-text input, .elements .element-captcha input, .elements .element select, .elements .element textarea {
-		width: 100% !important;
-	}
+
 }
